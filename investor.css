@@ -1,0 +1,70 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.investor {
+  width: 75%;
+  margin: auto;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  align-items: center;
+
+  gap: 15px;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.paytm,
+.cred,
+.pine-lab,
+.instamogo {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  /* width: 290px; */
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  width: 100%;
+}
+h3 {
+  text-align: center;
+}
+h4 {
+  text-align: center;
+  color: grey;
+}
+.log {
+  /* width: 140px; */
+
+  /* padding: 10px; */
+}
+.log img {
+  width: 100%;
+  height: 60px;
+  /* width: 140px; */
+}
+.head {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bolder;
+}
+.head-logo {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
